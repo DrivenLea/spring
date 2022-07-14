@@ -1,0 +1,10 @@
+#spring.sql.init.mode=always
+#spring.jpa.hibernate.ddl-auto=none
+#spring.datasource.generate-unique-name=false
+#spring.datasource.name=tacocloud
+#tag::setDatabaseName[]
+spring:
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+#end::setDatabaseName[]
